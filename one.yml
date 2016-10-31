@@ -11,7 +11,7 @@
   -name: Ensure that NTP is available
    apt:
     name: ntp
-     state:present
+     state: present
   -name: Ensure that NTP service is started
    service:
     name: ntp
