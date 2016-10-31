@@ -5,7 +5,6 @@
   tasks:
   -name: Add ansible user
    user:
-   apt:
      name: ansible
      state: present
      generate_ssh_key: true
